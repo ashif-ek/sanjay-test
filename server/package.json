@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Simple json-server backend for todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5001"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
